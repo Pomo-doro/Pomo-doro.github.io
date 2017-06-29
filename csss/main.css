@@ -1,13 +1,13 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    background-color: lightblue;
 }
+
 h1 {
-    font-size: 9em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: white;
+    text-align: center;
 }
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-family: verdana;
+    font-size: 20px;
 }
