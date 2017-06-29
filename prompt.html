@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="main.css">
 <script>
 var quotes = 
-["muh",
-"bluh",
-"guh",
+["A is for the Apple that he gave to me, but I found a worm inside",
+"Now she's back in the atmosphere, Drops of Jupiter in her hair",
+"I would never pass for a perfect bride, Or a perfect daughter",
 "Try me, If you dare",
-"dwuh",
-"spuh"]
+"You\'re in my world now, Not your world",
+"Aha!"]
 function generate() {
 	var rand = Math.floor(Math.random()*quotes.length);
     document.getElementById("demo").innerHTML = quotes[rand];
@@ -17,10 +16,10 @@ function generate() {
 </script>
 </head>
 
-<body>
+<body style="background-color: lightblue;">
 
-<h1>Pugad Registration SY2017-2018</h1>
-<p id="demo">A Paragraph</p>
+<h1 style="text-align: center; margin-top: 90px; font-size: 3em;">Pugad Registration SY2017-2018</h1>
+<p id="demo" style="text-align: center; margin-top: 100px; font-size: 1.5em;">A Paragraph</p>
 <body onload=generate()>
 
 </body>
