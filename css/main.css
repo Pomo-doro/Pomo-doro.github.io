@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(ostrich-regular.ttf);
+    src: url('https://www.fontsquirrel.com/fonts/ostrich-sans.ttf');
 }
 body    {
     background-color: linen;
